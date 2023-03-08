@@ -9,7 +9,6 @@ services:
     github:
       branch: main
       deployOnPush: true
-      
-- path: /css/style.css
-  headers:
-    content-type: text/css
+# - path: /css/style.css
+#   headers:
+#     content-type: text/css
