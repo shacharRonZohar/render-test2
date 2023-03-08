@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a:active {
+    color: unset;
+}
+
+button {
+    cursor: pointer;
+}
+
+.app-main {
+    background-color: lightblue;
+    min-height: 90vh;
+}
+
+/* HEADER */
+
+.app-header {
+    background-color: lightgreen;
+    padding: 20px;
+    /* height: 5vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* APP */
+
+.car-app {
+    background-color: lightblue;
+    min-height: 90vh;
+}
+
+/* FILTER */
+
+.car-filter {
+    background-color: rgb(176, 240, 123);
+    padding: 10px;
+}
+
+/* LIST */
+
+.car-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* PREVIEW */
+
+.car-preview-container {
+    width: 150px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.car-preview {
+    text-align: center;
+    padding: 10px;
+
+}
+.car-preview h3 {
+    color:darkblue;
+    font-size: 2em;
+}
+
+/* DETAILS */
+
+.car-details {
+    /* background-color: lightcoral; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+.car-details pre {
+    background-color: brown;
+    padding: 3px;
+    color: whitesmoke;
+    font-size: 0.8em;
+}
+/* EDIT */
+
+.car-edit {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+/* ROUTES */
+
+.router-link-exact-active {
+    color: green
+}
+
+/* 
+.router-link-active {
+    color: green
+} */
+
+.active-link {
+    color: whitesmoke;
+}
+
+/* USER - MSG */
+.user-msg {
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    right: 0;
+    min-width: 200px;
+}
+.user-msg button {
+    float: right;
+}
+
+
+
+.success{
+    background-color: rgb(30, 207, 30);
+}
+
+.error{
+    background-color: red;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.todo-app ul span {
+    cursor: pointer;
+}
