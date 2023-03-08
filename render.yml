@@ -1,0 +1,15 @@
+services:
+  - name: web
+    buildCommand: npm install && npm run build
+    startCommand: node server.js
+    env:
+      NODE_ENV: production
+      PORT: 3000
+    healthCheckPath: /
+    github:
+      branch: main
+      deployOnPush: true
+      
+- path: /css/style.css
+  headers:
+    content-type: text/css
